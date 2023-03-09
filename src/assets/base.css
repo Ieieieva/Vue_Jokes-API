@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Shantell+Sans:ital,wght@0,400;1,500&display=swap');
+
+:root {
+  --vt-c-base: rgb(172, 173, 173);
+  --vt-c-secondary-base: rgb(46, 68, 68);
+  --vt-c-primary-accent: rgb(2, 93, 93);
+  --vt-c-secondary-accent: rgb(227, 158, 30);
+  --vt-c-content: rgb(47, 49, 49);
+  --vt-c-content-secondary: rgb(207, 214, 214);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--vt-c-base);
+  color: var(--vt-c-content);
+  font-family: 'Shantell Sans', cursive;
+}
